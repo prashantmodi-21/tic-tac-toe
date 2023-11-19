@@ -1,7 +1,7 @@
-.App {
-  text-align: center;
+body{
+  background-color: darkslategray;
+  color: white;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +27,55 @@
 .App-link {
   color: #61dafb;
 }
+.intro{
+  text-align: center;
+  margin-bottom: 100px
+}
+.intro h1{
+  font-size: 64px;
+}
+.intro h3{
+  font-size: 32px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+  text-align: center;
+}
+#box-1{
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+#box-2{
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+#box-3{
+  border-bottom: 2px solid white;
+}
+#box-4{
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+#box-5{
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+#box-6{
+  border-bottom: 2px solid white;
+}
+#box-7{
+  border-right: 2px solid white;
+}
+#box-8{
+  border-right: 2px solid white;
+}
+
 
 @keyframes App-logo-spin {
   from {
